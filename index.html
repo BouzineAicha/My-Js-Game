@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>the game of GUESS</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <h1>Welcome to the game of <samp>GUESS</samp></h1>
+    <div class="main center">
+        <div class="box center">
+            <p>you must choose a random number between 1 and 100 <br>You have ten attempts to find the correct number</p>
+            <p id="attemptsTxt"></p>
+            <p id="txt"></p>
+            <form action="" class="center">
+                <input type="number" placeholder="give value..." id="num" >
+                <button type="submit" class="btn" id="btn">Submit</button>
+            </form>
+        </div>
+    </div>
+    <div class="prompt_box center" id="prompt_box">
+        <button type="submit" class="btn" onclick="play();">Play Again</button>
+        <h1 id="promt_txt"></h1>
+    </div>
+
+    <script src="index.js"></script>
+
+</body>
+</html>
