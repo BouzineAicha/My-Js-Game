@@ -11,14 +11,14 @@ let randomNumber = Math.floor(Math.random() * 100) + 1;
 
 let number;
 let attempts = 10;
-attemptsTxt.innerHTML = "attempts:- " + attempts;
+attemptsTxt.innerHTML = "attempts: " + attempts;
 console.log(randomNumber);
 
 btn.addEventListener("click", (e) => {
   e.preventDefault();
   console.log(num.Value);
   attempts--;
-  attemptsTxt.innerHTML = "attempts:- " + attempts;
+  attemptsTxt.innerHTML = "attempts: " + attempts;
   if (attempts == 0) {
     activateBox("Lost 👎");
     // rightAudio.play();
