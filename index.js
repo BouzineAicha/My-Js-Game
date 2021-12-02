@@ -31,7 +31,7 @@ btn.addEventListener("click", (e) => {
 function checkNum(number) {
   if (number == randomNumber) {
     if(attempts>=7){ 
-      activateBox("are genius 🤓 ,you win") 
+      activateBox("are genius 🤓 , you win") 
     }
     // wrongAudio.play();
   }
