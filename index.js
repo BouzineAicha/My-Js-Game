@@ -55,5 +55,5 @@ function play(e) {
   prompt_box.classList.remove("active");
   attempts =10;
   txt.innerHTML = "";
-  attemptsTxt.innerHTML = "attempts:- " + attempts;
+  attemptsTxt.innerHTML = "attempts: " + attempts;
 }
