@@ -27,7 +27,7 @@ body{
 }
  h1{
     font-family:cursive ;
-        font-size: 77px;
+        font-size: 95px;
         color: azure;
 }
 samp{
@@ -82,7 +82,7 @@ form input:hover{
 .prompt_box{
     display: none;
     position: fixed;
-    top: 67%;
+    top: 60%;
     left: 50%;
     transform: translate(-50%, -50%);
     font-family: 'Open Sans', sans-serif;
